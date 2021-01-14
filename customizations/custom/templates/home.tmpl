@@ -1,0 +1,35 @@
+{{template "base/head" .}}
+<div class="home">
+	<div class="ui stackable middle very relaxed page grid">
+		<div class="sixteen wide center aligned centered column">
+			<div>
+				<img class="logo" src="{{StaticUrlPrefix}}/img/gitea-lg.png" />
+			</div>
+			<div class="hero">
+				<h1 class="ui icon header title">
+					{{AppName}}
+				</h1>
+				<h2>Git with a bunch of dabs</h2>
+			</div>
+		</div>
+	</div>
+	<div class="ui stackable middle very relaxed page grid">
+		<div class="eight wide center column">
+			<h1 class="hero ui icon header">
+				{{svg "octicon-organization" 16}} By people, for people
+			</h1>
+			<p class="large">
+				Gitdab isn't run by a massive company trying to get your personal information and your money, it's run by <a target="_blank" rel="noopener noreferrer" href="https://lavatech.top">LavaTech</a>, a group dedicated to bringing you quality, free, non-spying services.
+			</p>
+		</div>
+		<div class="eight wide center column">
+			<h1 class="hero ui icon header">
+				{{svg "octicon-code" 16}} Open Source
+			</h1>
+			<p class="large">
+				Gitdab uses <a target="_blank" rel="noopener noreferrer" href="https://github.com/go-gitea/gitea/">Gitea</a>, which is open source. All of our <a target="_blank" rel="noopener noreferrer" href="https://gitdab.com/a/gitdab/">customizations, scripts and icons</a> are open source too.
+			</p>
+		</div>
+	</div>
+</div>
+{{template "base/footer" .}}
