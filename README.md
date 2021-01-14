@@ -20,3 +20,4 @@ All rights are reserved on the images unless specified otherwise.
 
 - Luna: Idea for Gitdab
 - Slice (sliceofcode): Gitdab logo
+- Gitdab: https://gitdab.com/gitdab/gitdab
